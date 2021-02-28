@@ -107,12 +107,12 @@ var Engine = (function (global) {
          * for that particular row of the game level.
          */
         var rowImages = [
-            'images/water-block.png',   // Top row is water
-            'images/stone-block.png',   // Row 1 of 3 of stone
-            'images/stone-block.png',   // Row 2 of 3 of stone
-            'images/stone-block.png',   // Row 3 of 3 of stone
-            'images/grass-block.png',   // Row 1 of 2 of grass
-            'images/grass-block.png'    // Row 2 of 2 of grass
+            '/portfolio/frogger-clone/images/water-block.png',   // Top row is water
+            '/portfolio/frogger-clone/images/stone-block.png',   // Row 1 of 3 of stone
+            '/portfolio/frogger-clone/images/stone-block.png',   // Row 2 of 3 of stone
+            '/portfolio/frogger-clone/images/stone-block.png',   // Row 3 of 3 of stone
+            '/portfolio/frogger-clone/images/grass-block.png',   // Row 1 of 2 of grass
+            '/portfolio/frogger-clone/images/grass-block.png'    // Row 2 of 2 of grass
         ],
             numRows = 6,
             numCols = 5,
@@ -169,11 +169,11 @@ var Engine = (function (global) {
      * all of these images are properly loaded our game will start.
      */
     Resources.load([
-        'images/stone-block.png',
-        'images/water-block.png',
-        'images/grass-block.png',
-        'images/enemy-bug.png',
-        'images/char-boy.png',
+        '/portfolio/frogger-clone/images/stone-block.png',
+        '/portfolio/frogger-clone/images/water-block.png',
+        '/portfolio/frogger-clone/images/grass-block.png',
+        '/portfolio/frogger-clone/images/enemy-bug.png',
+        '/portfolio/frogger-clone/images/char-boy.png',
     ]);
     Resources.onReady(init);
 
