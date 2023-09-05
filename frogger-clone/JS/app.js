@@ -7,7 +7,7 @@ var Enemy = function (x, y, speed) {
     this.speed = speed;
 
     // the enemy cockroach image
-    this.sprite = 'https://lhdev95.github.io/portfolio/frogger-clone/images/enemy-bug.png';
+    this.sprite = '/frogger-clone/images/enemy-bug.png';
 };
 
 // Update the enemy's position, required method for game
@@ -46,7 +46,7 @@ var Player = function (x, y) {
     this.y = y;
 
     //The image of the player of horn-girl is added to the playing field 
-    this.player = 'https://lhdev95.github.io/portfolio/frogger-clone/images/char-boy.png';
+    this.player = '/frogger-clone/images/char-boy.png';
 };
 
 Player.prototype.update = function (dt) {
